@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #202020;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #333;
+            color:rgb(70, 127, 211);
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Estilo do contêiner flexível */
+        .container {
+            color:rgb(70, 127, 211) ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribui os perfis ao redor do espaço disponível */
+            padding: 20px;
+        }
+
+        /* Estilo do perfil individual */
+        .profile {
+            flex: 1; /* Ocupa uma parte flexível do contêiner */
+            background-color: #363636;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo da imagem do perfil */
+        .profile img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #333;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixa o rodapé na parte inferior da tela */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Perfil</h1>
+    </header>
+
+    <!-- Contêiner de perfis -->
+    <div class="container">
+        <!-- Perfil 1 -->
+        <div class="profile">
+            <img src="kk.jpg" alt="Minha Foto">
+            <h2>Kayky J.</h2>
+            <p> Meu nome é Kayky jefferson e atualmente estudo programação por um programa do governo chamado trilhas do futuro. 
+                Eu nem sempre fui um fã de dessa area até porque eu sempre tive dificuldade em mecher com aparelhos eletronicos mas,quando eu entrei em cum curso de robotica tudo isso mudou.
+                Quando eu vi pela primeira vez um codigo fiquei assutado mas tambem fascinado de como aquilo que eu não entedia fazia tudo funcinar então me Interessei . 
+                No momento estou em um quarto do do curso fazendo um estagio para desenvouvimendo de um aplicativo em flutter.</p>
+        </div>
+
+        <!-- Perfil 2 -->
+        <div class="profile">
+            <img src="image.png" alt="Minha Foto 2">
+            <h2>C. Mntes</h2>
+            <p>sou um artista 3D de jogos e adoro um bom game desde jogos de tabuleiro a videos game. Quando estou de bobeira , gosto de jogar, modelar em 3D e escutar musica. 
+                por essa razão adoro tudo que faz o que eu gosto funcinar por tras dos panos.</p>
+        </div>
+
+        <!-- Adicione mais perfis conforme necessário -->
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2023 Meu Perfil
+    </footer>
+
+</body>
+</html>
